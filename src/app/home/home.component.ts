@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable, from } from 'rxjs';
+import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { ObservableMedia } from '@angular/flex-layout';
 import { Product, ProductService } from '../shared/services';
